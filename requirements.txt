@@ -28,7 +28,8 @@ psutil
 pycryptodome
 pygments
 pyromod
-pymongo
+pymongo==3.12.3 
+mongoengine==0.27.0
 motor
 marshmallow
 umongo
