@@ -175,9 +175,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
               [
-                  InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-                  InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2'),
-                  InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+                  InlineKeyboardButton(f'​📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
+                  InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
          ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -193,18 +192,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚓️ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs 🛠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🤖 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ], [
-             InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/new_ott_movies3'),
-             InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mn_movies2')
-        ],[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mn-bots/ShobanaFilterBot')
+             InlineKeyboardButton(f'📜 Rᴜʟᴇ​', url='https://t.me/Cinema_Updates_OTT/6198'),
+             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_text("ShobanaFilterBot") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
         await asyncio.sleep(1.2)
         await m.delete()
         await message.reply_photo(
