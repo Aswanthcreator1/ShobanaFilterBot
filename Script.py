@@ -7,10 +7,10 @@ class script(object):
 Currently using free server so please Dont kill Me...
 """
     ABOUT_TXT = """<b>
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://github.com/mntg4u> MN - TG</a>
-◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
-◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
-◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
+✯ Dᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Ascreator_10> Asᴡᴀɴᴛʜ ♛</a>
+✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
+✯ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Shobana Filter Bot  is a open source project. 
 - Source - <ahref=https://github.com/mn-bots/ShobanaFilterBot>Click Here to get source code</a>
