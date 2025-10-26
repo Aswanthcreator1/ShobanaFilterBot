@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """ 🎀അമ്പട കേമാ സണ്ണികുട്ടാ..🍭
+    START_TXT = """<b>🎀അമ്പട കേമാ സണ്ണികുട്ടാ..🍭
 
 Hᴇʏ {},
 
-🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>𝗦𝘂𝗻𝗻𝘆!!!</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍.."""
+🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>𝗦𝘂𝗻𝗻𝘆!!!</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍..</b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
@@ -41,7 +41,7 @@ Currently using free server so please Dont kill Me...
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://github.com/mn-bots/ShobanaFilterBot)</code>
+<code>[Button Text](buttonurl:https://t.me/Cinema_group_request)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -116,19 +116,12 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
- Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/mn_movies2)
- Jᴏɪɴ :- [Movie Group 1](https://t.me/mn_movies3)
- Jᴏɪɴ :- [Movie Group 2](https://t.me/malayalam_movies_group2)
- Jᴏɪɴ :- [Movie Group 3](https://t.me/Netflix_Group3)
- Jᴏɪɴ :- [Movie Group 4](https://t.me/cinima_theerthadana_kendram)
- Jᴏɪɴ :- [Movie Group 5](https://t.me/malayalam_movies_nbot)
- Jᴏɪɴ :- [Movie Group 6](https://t.me/seriesgroups)
- Jᴏɪɴ :- [Movie Group 7](https://t.me/New_indian_cinemas)
-╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝
+  [<a href=Cinema_Lokam_Movie_Request>Cinema Lokam</a>]
+╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝</b>
 
 ⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
 
