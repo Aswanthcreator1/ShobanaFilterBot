@@ -5,6 +5,14 @@ class script(object):
 
 <b>🤖 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍.</b>
 """
+    
+
+    GSTART_TXT = """<b>🎀അമ്പട കേമാ സണ്ണികുട്ടാ..🍭</b>
+
+<b>ʜᴇʏ {},</b>
+
+<b>🤖 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍.</b>"""
+    
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
