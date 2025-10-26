@@ -113,14 +113,14 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    RESULT_TXT="""<blockquote> Hey,     </blockquote>
+    RESULT_TXT="""<b>Hᴇʏ {},</b>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
-  <a href=https://t.me/Cinema_Lokam_Movie_Request>Movie Group</a>
+   <a href=https://t.me/Cinema_Lokam_Movie_Request>Movie Group</a>
 ╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝</b>
 
 ⚠️ <b>This file will be deleted from here within 5 minute as it has copyright.So Forward This Message... !!!</b>
