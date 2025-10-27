@@ -29,7 +29,7 @@ REQUEST_FSUB_MODE = bool(environ.get('REQUEST_FSUB_MODE', True))
 BOT_START_TIME = time()
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://envs.sh/JZD.jpg https://envs.sh/7YH.jpg https://envs.sh/7Ya.jpg https://envs.sh/7Yf.jpg https://envs.sh/7YN.jpg https://envs.sh/7Yg.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/osc.jpg https://envs.sh/osL.jpg https://envs.sh/os5.jpg https://envs.sh/osK.jpg https://envs.sh/os3.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8452579484').split()]
