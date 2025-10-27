@@ -13,7 +13,9 @@ Currently using free server so please Dont kill Me...
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ✯ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
-    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    OWNER_TXT = """<b>
+    ⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
 ✯ Nᴀᴍᴇ: Asᴡᴀɴᴛʜ
   ■■■■■ 100%
 ✯ Dᴍ Lɪɴᴋ: <a href=https://t.me/Ascreator_10> Asᴡᴀɴᴛʜ ♛</a></b>"""
