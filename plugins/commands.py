@@ -196,9 +196,11 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🤖 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
-        ], [
+        ],[
              InlineKeyboardButton(f'📜 Rᴜʟᴇ​', url='https://t.me/Cinema_Updates_OTT/6198'),
              InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
+     ],[ 
+             InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -239,6 +241,8 @@ async def start(client, message):
         ],[
              InlineKeyboardButton(f'📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
              InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request')
+     ],[ 
+             InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
