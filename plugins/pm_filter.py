@@ -448,7 +448,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
              InlineKeyboardButton(f'📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
              InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request')
-        ]]
+     ],[ 
+             InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -466,7 +468,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('↻ Bᴀᴄᴋ', callback_data='start')
-          ]]
+        ],[ 
+             InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -484,6 +488,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "owner":
+        buttons = [[
+            InlineKeyboardButton('↻ Bᴀᴄᴋ', callback_data='start')
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.OWNER_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )     
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('↻ Bᴀᴄᴋ', callback_data='about'),
