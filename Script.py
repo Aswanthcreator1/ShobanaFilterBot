@@ -16,7 +16,7 @@ Currently using free server so please Dont kill Me...
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
 ✯ Nᴀᴍᴇ: Asᴡᴀɴᴛʜ
   ■■■■■ 100%
-✯ Dᴍ Lɪɴᴋ: <a href=https://t.me/Ascreator_10> Asᴡᴀɴᴛʜ ♛</a></b>
+✯ Dᴍ Lɪɴᴋ: <a href=https://t.me/Ascreator_10> Asᴡᴀɴᴛʜ ♛</a></b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Shobana Filter Bot  is a open source project. 
 - Source - <ahref=https://github.com/mn-bots/ShobanaFilterBot>Click Here to get source code</a>
