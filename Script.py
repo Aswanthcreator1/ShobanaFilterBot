@@ -3,7 +3,7 @@ class script(object):
 
 Hᴇʏ {},
 
-🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>𝗦𝘂𝗻𝗻𝘆!!!</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍..</b>"""
+🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>Cʜᴀɴᴅʀᴀ ! !</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍..</b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
