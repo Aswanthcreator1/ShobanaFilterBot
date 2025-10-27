@@ -1,9 +1,10 @@
 class script(object):
-    START_TXT = """<b>🎀അമ്പട കേമാ സണ്ണികുട്ടാ..🍭
-
+    START_TXT = """<b>
 Hᴇʏ {},
 
-🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>Cʜᴀɴᴅʀᴀ ! !</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍..</b>"""
+🤖 Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/As_Filter_V3_BOT>Cʜᴀɴᴅʀᴀ ! !</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍..
+❕ᴍᴏʀᴇ ʜᴇʟᴘ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
+ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href=https://t.me/Cinema_Lokam_Movie_Request>Cinema Lokam</a></b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
