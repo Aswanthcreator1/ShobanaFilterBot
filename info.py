@@ -27,7 +27,7 @@ HYPER_MODE = bool(environ.get('HYPER_MODE', False))
 REQUEST_FSUB_MODE = bool(environ.get('REQUEST_FSUB_MODE', True))
 # Bot settings
 BOT_START_TIME = time()
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', '')).split()
 
