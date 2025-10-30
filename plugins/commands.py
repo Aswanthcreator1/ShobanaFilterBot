@@ -163,7 +163,7 @@ async def checksub_callback(client, callback_query):
     else:
         # Resend subscription prompt
         links = await create_invite_links(client)
-        btn = [[InlineKeyboardButton("🤖 Join Updates Channel", url=url)] for url in links.values()]
+        btn = [InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/Cinema_Updates_OTT')] for url in links.values()]
         btn.append([InlineKeyboardButton("🔄 Try Again", callback_data=data)])
         await callback_query.edit_message_text(
             text="**❌ You still haven't joined all channels!**\n\nPlease join and press Try Again:",
@@ -175,7 +175,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
               [
-                  InlineKeyboardButton(f'​📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
+                  InlineKeyboardButton(f'🔖 Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴɴᴇʟ', url='https://t.me/Cinema_Updates_OTT'),
                   InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
          ]
             ]
@@ -197,7 +197,7 @@ async def start(client, message):
             InlineKeyboardButton('🤖 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ],[
-             InlineKeyboardButton(f'📜 Rᴜʟᴇ​', url='https://t.me/Cinema_Updates_OTT/6198'),
+             InlineKeyboardButton(f'🔖 Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴɴᴇʟ​', url='https://t.me/Cinema_Updates_OTT'),
              InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
      ],[ 
              InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
@@ -215,7 +215,7 @@ async def start(client, message):
         return
     if not await is_subscribed(message.from_user.id, client):
         links = await create_invite_links(client)
-        btn = [[InlineKeyboardButton("🤖 Join Updates Channel", url=url)] for url in links.values()]
+        btn = [[InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/Cinema_Updates_OTT')] for url in links.values()]
 
         if len(message.command) == 2:
             try:
@@ -239,7 +239,7 @@ async def start(client, message):
             InlineKeyboardButton('🤖 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ],[
-             InlineKeyboardButton(f'📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
+             InlineKeyboardButton(f'🔖 Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴɴᴇʟ', url='https://t.me/Cinema_Updates_OTT'),
              InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request')
      ],[ 
              InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
