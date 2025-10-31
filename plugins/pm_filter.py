@@ -210,26 +210,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         else:
             await query.answer("You need to be Group Owner or an Auth User to do that!", show_alert=True)
     elif query.data == "delallcancel":
-        userid = query.from_user.id
-        chat_type = query.message.chat.type
+    userid = query.from_user.id
+    chat_type = query.message.chat.type
 
-        elif chat_type == enums.ChatType.PRIVATE:
-    if AUTO_DELETE:
-        await query.message.reply_to_message.delete()
-        await query.message.delete()
-
-elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-    grp_id = query.message.chat.id
-    st = await client.get_chat_member(grp_id, userid)
-    if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
+    if chat_type == enums.ChatType.PRIVATE:
         if AUTO_DELETE:
+            await query.message.reply_to_message.delete()
             await query.message.delete()
-            try:
-                await query.message.reply_to_message.delete()
-            except:
-                pass
-    else:
-        await query.answer("That's not for you!!", show_alert=True)
+
+    elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
+        grp_id = query.message.chat.id
+        st = await client.get_chat_member(grp_id, userid)
+        if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
+            if AUTO_DELETE:
+                await query.message.delete()
+                try:
+                    await query.message.reply_to_message.delete()
+                except:
+                    pass
+        else:
+            await query.answer("That's not for you!!", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
