@@ -167,7 +167,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             k = await query.message.edit(script.MOV_NT_FND)#script change
-            await asyncio.sleep(10)
+            await asyncio.sleep(86400)
             await k.delete()
 
 
