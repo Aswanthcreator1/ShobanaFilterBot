@@ -220,9 +220,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             grp_id = query.message.chat.id
             st = await client.get_chat_member(grp_id, userid)
             if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
-                await query.message.delete()
+                #await query.message.delete()
                 try:
-                    await query.message.reply_to_message.delete()
+                    #await query.message.reply_to_message.delete()
                 except:
                     pass
             else:
