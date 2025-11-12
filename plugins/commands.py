@@ -198,7 +198,7 @@ async def start(client, message):
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ],[
              InlineKeyboardButton(f'🔖 Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴɴᴇʟ​', url='https://t.me/Cinema_Updates_OTT'),
-             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request'),
+             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movies_Group'),
      ],[ 
              InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
          ]]
@@ -240,7 +240,7 @@ async def start(client, message):
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ],[
              InlineKeyboardButton(f'🔖 Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴɴᴇʟ', url='https://t.me/Cinema_Updates_OTT'),
-             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request')
+             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movies_Group')
      ],[ 
              InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
          ]]
