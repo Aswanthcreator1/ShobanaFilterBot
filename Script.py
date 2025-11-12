@@ -6,7 +6,7 @@ Hᴇʏ {},
 
 ❕ᴍᴏʀᴇ ʜᴇʟᴘ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
  
- ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href=https://t.me/Cinema_Lokam_Movie_Request>Cinema Lokam</a></b>"""
+ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href=https://t.me/Cinema_Lokam_Movies_Group>Cinema Lokam</a></b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
@@ -129,7 +129,7 @@ Added By - {}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
-    <a href=https://t.me/Cinema_Lokam_Movie_Request>Movie Group</a>
+    <a href=https://t.me/Cinema_Lokam_Movies_Group>@Cinema lokam</a>
 ╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝</b>
 
 ⚠️ <b>This file will be deleted from here within 5 minute as it has copyright.So Forward This Message... !!!</b>
