@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📟 Aʙᴏᴜᴛ', callback_data='about')
         ],[
              InlineKeyboardButton(f'📜 Rᴜʟᴇ', url='https://t.me/Cinema_Updates_OTT/6198'),
-             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movie_Request')
+             InlineKeyboardButton(f'⛱ Mᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movies_Group')
      ],[ 
              InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner')
          ]]
